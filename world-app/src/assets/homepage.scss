@@ -1,0 +1,44 @@
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+
+    .card {
+        background-color: #ffff;
+        border: 1.5px solid #2C3E6D;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .continentList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .continentButton {
+      padding: 12px 20px;
+      margin: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      background-color: #5E8FBD;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+}
